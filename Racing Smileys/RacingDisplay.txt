@@ -1,0 +1,40 @@
+// RacingDisplay.txt
+// 
+// ICS 45J : Lab Assignment 4
+// 
+// Information about the public aspects of the RacingDisplay class.
+
+public class RacingDisplay extends BasicDisplay
+{
+	
+	// Constants indicating the location of the edges
+	
+	public static final int LEFT_EDGE;
+	public static final int RIGHT_EDGE;
+	public static final int TOP_EDGE;
+	public static final int BOTTOM_EDGE;
+	
+	// RacingDisplay: sets up the basics: makes a 
+	// screen the size of the frame; sets the
+	// font to 10 point Sanserif bold
+	
+	public RacingDisplay()
+	
+	// addGroup: Adds in the racing group that is to be shown
+	
+	public void addGroup(RacingGroup group)
+	
+	// paintComponent: Redraws the screen with racers in 
+	// current positions. DO NOT CALL DIRECTLY; use
+	// repaint() to have the run time environment call
+	// paintComponent() at first opportunity
+	
+	public void paintComponent(Graphics g)
+	
+	// repaint() - redraw the screen via paintComponent() 
+	// at first opportunity (inherited)
+	
+	public void repaint()	
+	
+}
+
